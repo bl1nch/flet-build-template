@@ -24,6 +24,11 @@ dependency_overrides:
   wakelock_plus: ^1.2.5
   web: ^1.0.0
   window_manager: ^0.4.3
+  flet:
+    git:
+      url: https://github.com/bl1nch/flet.git
+      ref: kt
+      path: packages/flet
 
 # {% if 'flet_audio_recorder' in cookiecutter.flutter.dependencies %}
   record: ^5.1.1
